@@ -33,8 +33,7 @@ This project analyzes voice samples using various unsupervised clustering algori
 ```bash
 # Install dependencies
 pip install pandas numpy scikit-learn matplotlib seaborn
-
-
-
-# Run the analysis
-python voice_gender_clustering.py
+pip install librosa
+pip install numba audioread soundfile
+pip install openpyxl xlrd
+pip install pandas numpy scikit-learn matplotlib seaborn librosa numba audioread soundfile openpyxl xlrd
